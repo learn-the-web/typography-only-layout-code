@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+  font: normal 100%/1.4 "IM Fell French Canon", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  color: #b95f48;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+hr {
+  margin: 0 0 1.4rem;
+}
+
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+}
+
+.masthead {
+  margin-bottom: .6rem;
+  padding: 1em 1em 1.4em;
+
+  background-color: #b95f48;
+  border-bottom: 1px solid #7c4233;
+
+  color: #fff;
+}
+
+.book {
+  display: block;
+
+  font-size: 1.5rem;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  font-weight: normal;
+}
+
+.book i {
+  font-style: normal;
+}
+
+.author {
+  font-size: 1.125rem;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+}
+
+.author-by {
+  opacity: 0.6;
+  font-family: "IM Fell French Canon SC", serif;
+  font-style: italic;
+}
+
+main {
+  padding: 1em;
+}
+
+h1 {
+  font-size: 1.875rem;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  font-weight: normal;
+}
+
+main p {
+  margin-bottom: 0;
+
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+  -webkit-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  text-align: justify;
+  text-indent: 1.4em;
+}
+
+main header + p,
+main hr + p {
+  text-indent: 0;
+}
+
+main header + p:first-line {
+  font-family: "IM Fell French Canon SC", serif;
+}
+
+/*
+main header + p:first-letter {
+  font-size: 1.5rem;
+}
+*/
+
+main hr {
+  margin-top: 1.4rem;
+}
+
+main p:last-child {
+  margin-bottom: 1.4rem;
+}
+
+.colon {
+  display: none;
+}
+
+.chapter-num {
+  display: block;
+
+  font-style: italic;
+  font-size: 1.125rem;
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 7em;
+
+  border: 0;
+  border-top: 3px dotted #e2e2e2;
+}
+
+.footer {
+  padding: 1em;
+
+  background-color: #ccc;
+  border-top: 1px solid #999;
+}
+
+.chapter-links {
+  padding: 0;
+
+  list-style-type: none;
+  text-align: center;
+}
+
+.chapter-links li {
+  display: inline-block;
+  margin: 0 .5em;
+}
+
+.copyright {
+  margin-bottom: 0;
+
+  color: #666;
+  font-size: 0.875rem;
+  text-align: center;
+}
