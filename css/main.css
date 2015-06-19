@@ -93,12 +93,12 @@ main hr + p {
   text-indent: 0;
 }
 
-main header + p:first-line {
+main header + p::first-line {
   font-family: "IM Fell French Canon SC", serif;
 }
 
 /*
-main header + p:first-letter {
+main header + p::first-letter {
   font-size: 1.5rem;
 }
 */
